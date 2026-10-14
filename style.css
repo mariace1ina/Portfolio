@@ -294,6 +294,10 @@ body[data-theme="dark"] .theme-toggle-icon{color:#713552}
 @media(max-width:640px){.laptop-base{height:58px}}
 .laptop-display{aspect-ratio:1/1}
 
+.icon-sparkle,.icon-arrow{display:inline-block;width:1em;height:1em;vertical-align:-.12em}
+.icon-sparkle{fill:currentColor}
+.icon-arrow{flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
 .hero{grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);align-items:center;gap:clamp(28px,4vw,54px)}
 .hero-visual{grid-column:2;grid-row:1;width:100%;min-width:0;padding:18px 8px 28px}
 .hero-copy{grid-column:1;grid-row:1;min-width:0}
